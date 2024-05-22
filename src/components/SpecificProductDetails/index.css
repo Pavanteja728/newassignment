@@ -1,0 +1,22 @@
+.details {
+  font-size: 350px;
+}
+.specific-product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+@media screen and (max-width: 450px) {
+  .details {
+    font-size: 150px;
+  }
+  .specific-product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+}

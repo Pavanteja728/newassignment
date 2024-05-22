@@ -1,0 +1,68 @@
+.empty-bookmark {
+  font-size: 250px;
+}
+.wishListContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.wishlistHead {
+  font-family: 'Century Gothic';
+}
+.wishList-button-sec {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.wishlistButton {
+  width: 250px;
+  height: 40px;
+  background-color: blue;
+  color: #ffffff;
+  align-items: center;
+  text-align: center;
+  font-weight: 'Roboto';
+  font-size: 15px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 450px) {
+  .empty-bookmark {
+    font-size: 100px;
+  }
+  .wishListContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .wishlistHead {
+    font-family: 'Century Gothic';
+    font-size: 16px;
+  }
+  .wishList-button-sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .wishlistButton {
+    width: 100px;
+    height: 26px;
+    background-color: blue;
+    color: #ffffff;
+    align-items: center;
+    text-align: center;
+    font-weight: 'Century Gothic';
+    font-size: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+  }
+}

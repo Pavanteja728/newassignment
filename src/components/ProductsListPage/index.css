@@ -1,0 +1,119 @@
+.homehunts-logo {
+  background-size: 100% 100%;
+  width: 100%;
+}
+.product-bar {
+  background-color: lightblue;
+  height: 10vh;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+}
+.productslist-container {
+  padding: 15px;
+}
+.product-button {
+  background-color: #ffffff;
+  color: black;
+  font-family: 'Roboto';
+  font-size: 20px;
+  height: 40px;
+  width: 160px;
+  align-items: center;
+  border-radius: 15px;
+  border: none;
+  margin: 10px;
+  margin-left: 70px;
+}
+.total-products {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: gray;
+  font-style: italic;
+}
+.type-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.category-button {
+  height: 40px;
+  width: 150px;
+  background-color: violet;
+  color: #ffffff;
+  font-family: 'Roboto';
+  border-radius: 50px;
+  border: none;
+  font-size: 16px;
+}
+.category-button2 {
+  height: 40px;
+  width: 150px;
+  background-color: transparent;
+  color: black;
+  font-family: 'Roboto';
+  border-radius: 50px;
+  border: 1px solid skyblue;
+  font-size: 16px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 450px) {
+  .homehunts-logo {
+    height: 200px;
+  }
+  .product-bar {
+    background-color: lightblue;
+    height: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+  }
+  .product-button {
+    background-color: #ffffff;
+    color: black;
+    font-family: 'Roboto';
+    font-size: 10px;
+    height: 20px;
+    width: 60px;
+    align-items: center;
+    border-radius: 15px;
+    border: none;
+    margin: 10px;
+    margin-left: 40px;
+  }
+  .total-products {
+    font-family: 'Roboto';
+    font-size: 10px;
+    color: gray;
+    font-style: italic;
+  }
+  .category-button {
+    height: 20px;
+    width: 60px;
+    background-color: violet;
+    color: #ffffff;
+    font-family: 'Roboto';
+    border-radius: 30px;
+    border: none;
+    font-size: 10px;
+  }
+  .category-button2 {
+    height: 20px;
+    width: 60px;
+    background-color: transparent;
+    color: black;
+    font-family: 'Roboto';
+    border-radius: 30px;
+    border: 1px solid skyblue;
+    font-size: 10px;
+  }
+}
